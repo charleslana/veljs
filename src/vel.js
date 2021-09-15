@@ -13,6 +13,7 @@ class Vel {
     image: 'image',
     color: 'color',
     display: 'display',
+    backgroundColor: 'backgroundColor',
   };
 
   getId(object) {
@@ -148,6 +149,9 @@ class Vel {
         break;
       case Vel.typeCallback.display:
         element.style.display = value;
+        break;
+      case Vel.typeCallback.backgroundColor:
+        element.style.backgroundColor = value;
         break;
       default:
         const callbackNotFound =

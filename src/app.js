@@ -1,4 +1,4 @@
 const vel = new Vel();
-vel.callback = Vel.typeCallback.display;
-vel.listObject = ['none'];
+vel.callback = Vel.typeCallback.backgroundColor;
+vel.listObject = ['gray'];
 vel.setListClass(['test_class1']);
